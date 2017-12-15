@@ -39,7 +39,7 @@ This project implement by gpu version of tensorflow1.3. Therefore a Nvidia GPU i
 
 3. Download dataset and model
 
-   You can download 2017 CCF BDCI remote sensing challenge dataset and our pre-trained model from [here](). Please unzip package in this repository folder.
+   You can download 2017 CCF BDCI remote sensing challenge dataset and our pre-trained model from [here](https://drive.google.com/file/d/1FMRMe4qSI-JS6AzrO8kASO3BfHOLoUfM/view). Please unzip package in this repository folder.
 
 
 ## Network Structure
@@ -90,7 +90,10 @@ python test.py --gpu=0
 
 The test result picture can be found in BDCI2017-jiage-Semi/test/x_result.png
 
-
+<figure class="half">
+​    <img src="https://github.com/YudeWang/FPN_tf_ss/blob/master/sample_result.png?raw=true" height="200" width="100">
+​    <img src="https://github.com/YudeWang/FPN_tf_ss/blob/master/sample_visible.png?raw=true" height="200" width="100">
+</figure>
 
 ## References
 1. K. He, X. Zhang, S. Ren, and J. Sun, “[Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385),” arXiv:1512.03385, 2015.
