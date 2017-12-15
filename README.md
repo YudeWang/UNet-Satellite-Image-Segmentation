@@ -90,10 +90,13 @@ python test.py --gpu=0
 
 The test result picture can be found in BDCI2017-jiage-Semi/test/x_result.png
 
-<figure class="half">
-​    <img src="https://github.com/YudeWang/FPN_tf_ss/blob/master/sample_result.png?raw=true">
-​    <img src="https://github.com/YudeWang/FPN_tf_ss/blob/master/sample_visible.png?raw=true">
-</figure>
+
+
+<div align="left"> 
+
+<img src="https://github.com/YudeWang/FPN_tf_ss/blob/master/sample_visible.png?raw=true" height="40%" width="40%">    <img src="https://github.com/YudeWang/FPN_tf_ss/blob/master/sample_result.png?raw=true" height="40%" width="40%">
+
+</div>
 
 ## References
 1. K. He, X. Zhang, S. Ren, and J. Sun, “[Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385),” arXiv:1512.03385, 2015.
