@@ -101,3 +101,4 @@ The test result picture can be found in BDCI2017-jiage-Semi/test/x_result.png
 ## References
 1. K. He, X. Zhang, S. Ren, and J. Sun, “[Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385),” arXiv:1512.03385, 2015.
 2. Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, Serge Belongie,"[Feature Pyramid Networks for Object Detection](https://arxiv.org/abs/1612.03144)," arXiv:1612.03144,2016. 
+3. Olaf Ronneberger, Philipp Fischer, Thomas Brox, "[U-Net: Convolutional Networks for Biomedical Image Segmentation.]( https://arxiv.org/abs/1505.04597)," arXiv:1505.04597.
