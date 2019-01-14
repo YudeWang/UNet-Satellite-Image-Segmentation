@@ -44,7 +44,7 @@ def save_y(path, index, label):
 def main(args):
 	dataset_path = './BDCI2017-jiage-Semi'
 	model_path='./model'
-	model_name='FPN_ResNet_itr100000'
+	model_name='UNet_ResNet_itr100000'
 	model_file = os.path.join(model_path,'%s.ckpt'%model_name)
 	period = 'test'
 	csv_path = './CSV'
@@ -70,7 +70,7 @@ def main(args):
 	col = image.shape[1]
 	
 	x = tf.placeholder(tf.float32,[batch_size,patch_size,patch_size,3])
-	net = factory.FPN_ResNet(x,class_num)
+	net = factory.UNet_ResNet(x,class_num)
 
 	net_sub = tf.slice(net,[0,0,0,1],[1,256,256,4])
 	#CRF
