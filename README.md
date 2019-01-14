@@ -39,7 +39,7 @@ This project implement by gpu version of tensorflow1.3. Therefore a Nvidia GPU i
 
 3. Download dataset and model
 
-   You can download 2017 CCF BDCI remote sensing challenge dataset and our pre-trained model from [here](https://drive.google.com/file/d/1FMRMe4qSI-JS6AzrO8kASO3BfHOLoUfM/view). Please unzip package in this repository folder.
+   You can download 2017 CCF BDCI remote sensing challenge dataset and our pre-trained model from [here](https://drive.google.com/file/d/1FMRMe4qSI-JS6AzrO8kASO3BfHOLoUfM/view). Please unzip package in this repository folder and change the ckpt file name to **UNet_ResNet_itr100000.ckpt**(I used to call it FPN, while the structure of network is symmetrical and then rename it).
 
 
 ## Network Structure
@@ -80,7 +80,7 @@ Training result model will be saved in model folder with name UNet\_ResNet\_itrx
 
 ## Test
 
-We provide pre-trained model **UNet_ResNet_itr100000.ckpt**
+We provide pre-trained model **UNet_ResNet_itr100000.ckpt**.
 
 You can use test.py to generate segmentation result.
 
