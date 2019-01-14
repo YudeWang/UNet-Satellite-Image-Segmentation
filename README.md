@@ -17,7 +17,7 @@ This project implement by gpu version of tensorflow1.3. Therefore a Nvidia GPU i
 1. Clone the repository
 
    ```shell
-   git clone https://github.com/YudeWang/UNet_segmentation.git
+   git clone https://github.com/YudeWang/UNet-Satellite-Image-Segmentation.git
    ```
 
 2. Install PyDenseCRF
@@ -74,13 +74,13 @@ You can run train.py for training, but **please check training parameters at fir
 python train.py --gpu=0
 ```
 
-Training result model will be saved in model folder with name FPN\_ResNet\_itrxxxxxx.ckpt
+Training result model will be saved in model folder with name UNet\_ResNet\_itrxxxxxx.ckpt
 
 
 
 ## Test
 
-We provide pre-trained model **FPN_ResNet_itr100000.ckpt**
+We provide pre-trained model **UNet_ResNet_itr100000.ckpt**
 
 You can use test.py to generate segmentation result.
 
@@ -94,7 +94,7 @@ The test result picture can be found in BDCI2017-jiage-Semi/test/x_result.png
 
 <div align="left"> 
 
-<img src="https://github.com/YudeWang/FPN_tf_ss/blob/master/sample_visible.png?raw=true" height="40%" width="40%">    <img src="https://github.com/YudeWang/FPN_tf_ss/blob/master/sample_result.png?raw=true" height="40%" width="40%">
+<img src="https://github.com/YudeWang/UNet-Satellite-Image-Segmentation/blob/master/sample_visible.png?raw=true" height="40%" width="40%">    <img src="https://github.com/YudeWang/UNet-Satellite-Image-Segmentation/blob/master/sample_result.png?raw=true" height="40%" width="40%">
 
 </div>
 
