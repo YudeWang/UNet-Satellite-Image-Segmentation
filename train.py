@@ -28,7 +28,7 @@ def main(args):
 	dataset_path = './TFRecord'
 	log_path='./log'
 	model_path='./model'
-	#model_name='FPN_ResNet_pure_itr50000'
+	#model_name='UNet_ResNet_pure_itr50000'
 	#model_file = os.path.join(model_path,'%s.ckpt'%model_name)
 	period = 'train'
 	patch_size=256
@@ -55,7 +55,7 @@ def main(args):
 
 	x = tf.placeholder(tf.float32,[batch_size,patch_size,patch_size,3])
 	y = tf.placeholder(tf.float32,[batch_size,patch_size,patch_size,class_num])
-	net = factory.FPN_ResNet(x,class_num)
+	net = factory.UNet_ResNet(x,class_num)
 	loss = tf.reduce_mean((tf.nn.softmax_cross_entropy_with_logits(labels = y,
 													logits = net,
 													)))
@@ -83,7 +83,7 @@ def main(args):
 			print('iteration %d, loss:%f, acc:%f'%(itr,train_loss,train_accuracy))
 			summary_writer.add_summary(summary, itr)
 		if itr%30000==0:
-			save_path = os.path.join(model_path,'FPN_ResNet_itr%d.ckpt'%(itr))
+			save_path = os.path.join(model_path,'UNet_ResNet_itr%d.ckpt'%(itr))
 			saver.save(sess,save_path)
 			print('model parameter has been saved in %s.'%save_path)
 
