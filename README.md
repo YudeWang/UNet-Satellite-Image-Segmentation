@@ -1,6 +1,6 @@
-# Feature Pyramid Networks for Semantic Segmentation
+# Light UNet for Satellite Image Segmentation
 
-A Tensorflow implentation of FPN semantic segmentation framework.
+A Tensorflow implentation of light UNet semantic segmentation framework.
 
 The framework was used in 2017 CCF BDCI remote sensing image semantic segmentation challenge and achieved 0.891 accuracy.
 
@@ -17,7 +17,7 @@ This project implement by gpu version of tensorflow1.3. Therefore a Nvidia GPU i
 1. Clone the repository
 
    ```shell
-   git clone https://github.com/YudeWang/FPN_tf_ss.github
+   git clone https://github.com/YudeWang/UNet_segmentation.git
    ```
 
 2. Install PyDenseCRF
