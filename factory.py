@@ -80,7 +80,7 @@ def Fully_ResNet(x, class_num):
 	net = res_conv_layer(net,64,class_num,name='res2',relu=False)
 	return net
 
-def FPN_ResNet(x, class_num):
+def UNet_ResNet(x, class_num):
 	input_row = x.shape[1]
 	input_col = x.shape[2]
 	input_channel = x.shape[3]
