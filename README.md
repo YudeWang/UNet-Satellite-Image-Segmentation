@@ -52,6 +52,8 @@ The detail of network architecture can be found in factory.py
 
 ## Dataset
 
+The dataset can be found in [here](https://github.com/linsong8208/Satellite-image-segment/tree/master/BDCI/0_data).
+
 Original training data and label is given by png format, each pixel has RGB information. 
 
 In **BDCI-jiage** folder, the labels are plane(1), **road(2), building(3), water(4)**, and the other(0);
